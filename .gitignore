@@ -1,12 +1,6 @@
 .DS_Store
 db/*.sqlite3
 db/sphinx
-config/*.sphinx.conf
-config/database.yml
-config/config.yml
-config/session_secret
-config/gmaps_api_key.yml
-config/translation.yml
 tmp/
 doc/api
 doc/app
@@ -27,13 +21,8 @@ public/system/small_cover_photos/
 public/system/wide_logos/
 .loadpath
 .project
-/Gemfile
-/Gemfile.lock
 cg.sh
 public/assets/
-app/assets/webfonts/
-app/assets/stylesheets/customizations-*
-app/assets/stylesheets/custom-style-*
 config/mangopay.pem
 log/*.log
 log/*.pid

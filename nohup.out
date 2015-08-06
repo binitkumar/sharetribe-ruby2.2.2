@@ -1,0 +1,114 @@
+/usr/local/lib/ruby/gems/2.2.0/gems/activesupport-3.2.21/lib/active_support/values/time_zone.rb:270: warning: circular argument reference - now
+/usr/local/lib/ruby/gems/2.2.0/gems/newrelic_rpm-3.9.1.236/lib/new_relic/agent/configuration/default_source.rb:675: warning: duplicated key at line 987 ignored: :disable_mongo
+INFO Connecting to database specified by database.yml
+[Worker(host:sharetribe pid:18170)] Starting job worker
+INFO Command :: file -b --mime '/tmp/78805a221a988e79ef3f42d7c5bfd41820150804-18170-9jc0tc.jpg'
+INFO Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/78805a221a988e79ef3f42d7c5bfd41820150804-18170-6cunai.jpg[0]' 2>/dev/null
+INFO Command :: identify -format %m '/tmp/78805a221a988e79ef3f42d7c5bfd41820150804-18170-6cunai.jpg[0]'
+INFO Command :: convert '/tmp/78805a221a988e79ef3f42d7c5bfd41820150804-18170-6cunai.jpg[0]' -auto-orient -resize "1600x1600>" '/tmp/9045f54bdc329f93d81736405fb0463620150804-18170-1ftxiua'
+INFO Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/5aaec558dae9e967dd43a919144ea37220150804-18170-j4b3s3[0]' 2>/dev/null
+INFO Command :: identify -format %m '/tmp/5aaec558dae9e967dd43a919144ea37220150804-18170-j4b3s3[0]'
+INFO Command :: convert '/tmp/5aaec558dae9e967dd43a919144ea37220150804-18170-j4b3s3[0]' -auto-orient -resize "240x" -crop "240x160+0+133" +repage '/tmp/fc854c0f74a7c80bdffeb5cf93c5ad6220150804-18170-1pdvb8b'
+INFO Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/5aaec558dae9e967dd43a919144ea37220150804-18170-j4b3s3[0]' 2>/dev/null
+INFO Command :: identify -format %m '/tmp/5aaec558dae9e967dd43a919144ea37220150804-18170-j4b3s3[0]'
+INFO Command :: convert '/tmp/5aaec558dae9e967dd43a919144ea37220150804-18170-j4b3s3[0]' -auto-orient -resize "360x" -crop "360x270+0+185" +repage '/tmp/fc854c0f74a7c80bdffeb5cf93c5ad6220150804-18170-gieaeo'
+INFO Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/5aaec558dae9e967dd43a919144ea37220150804-18170-j4b3s3[0]' 2>/dev/null
+INFO Command :: identify -format %m '/tmp/5aaec558dae9e967dd43a919144ea37220150804-18170-j4b3s3[0]'
+INFO Command :: convert '/tmp/5aaec558dae9e967dd43a919144ea37220150804-18170-j4b3s3[0]' -auto-orient -resize "120x" -crop "120x120+0+46" +repage '/tmp/fc854c0f74a7c80bdffeb5cf93c5ad6220150804-18170-1kt9jn5'
+INFO Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/5aaec558dae9e967dd43a919144ea37220150804-18170-j4b3s3[0]' 2>/dev/null
+INFO Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/5aaec558dae9e967dd43a919144ea37220150804-18170-j4b3s3[0]' 2>/dev/null
+INFO Command :: identify -format %m '/tmp/5aaec558dae9e967dd43a919144ea37220150804-18170-j4b3s3[0]'
+INFO Command :: convert '/tmp/5aaec558dae9e967dd43a919144ea37220150804-18170-j4b3s3[0]' -auto-orient -resize "660x440>" '/tmp/fc854c0f74a7c80bdffeb5cf93c5ad6220150804-18170-1rj4ae6'
+INFO Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/5aaec558dae9e967dd43a919144ea37220150804-18170-j4b3s3[0]' 2>/dev/null
+INFO Command :: identify -format %m '/tmp/5aaec558dae9e967dd43a919144ea37220150804-18170-j4b3s3[0]'
+INFO Command :: convert '/tmp/5aaec558dae9e967dd43a919144ea37220150804-18170-j4b3s3[0]' -auto-orient -resize "150x" -crop "150x100+0+83" +repage '/tmp/fc854c0f74a7c80bdffeb5cf93c5ad6220150804-18170-590kbu'
+WARN Creating scope :public. Overwriting existing method Listing.public.
+WARN Creating scope :private. Overwriting existing method Listing.private.
+[Worker(host:sharetribe pid:18170)] DelayedPaperclip::Jobs::DelayedJob completed after 1.7916
+[Worker(host:sharetribe pid:18170)] Thinking Sphinx: Process listing_delta completed after 0.0595
+[Worker(host:sharetribe pid:18170)] Thinking Sphinx: Mark 13 in listing_core as deleted completed after 0.0117
+[Worker(host:sharetribe pid:18170)] Thinking Sphinx: Mark 13 in listing_core as deleted completed after 0.0058
+[Worker(host:sharetribe pid:18170)] ListingUpdatedJob completed after 0.4118
+[Worker(host:sharetribe pid:18170)] 5 jobs processed at 2.1219 j/s, 0 failed ...
+[Worker(host:sharetribe pid:18170)] CommunityJoinedJob completed after 0.0431
+[Worker(host:sharetribe pid:18170)] 1 jobs processed at 16.5086 j/s, 0 failed ...
+[Worker(host:sharetribe pid:18170)] CommunityJoinedJob completed after 0.0465
+[Worker(host:sharetribe pid:18170)] 1 jobs processed at 12.4033 j/s, 0 failed ...
+DEBUG Cache read: /translation_service/community/1
+DEBUG Dalli::Server#connect 127.0.0.1:11211
+DEBUG Cache fetch_hit: /translation_service/community/1
+INFO 
+Sent mail to t5@mailinator.com (1984.4ms)
+[Worker(host:sharetribe pid:18170)] SendWelcomeEmail completed after 7.5346
+[Worker(host:sharetribe pid:18170)] PageLoadedJob completed after 0.0141
+[Worker(host:sharetribe pid:18170)] 2 jobs processed at 0.2639 j/s, 0 failed ...
+[Worker(host:sharetribe pid:18170)] PageLoadedJob completed after 0.0131
+[Worker(host:sharetribe pid:18170)] 1 jobs processed at 28.8205 j/s, 0 failed ...
+[Worker(host:sharetribe pid:18170)] PageLoadedJob completed after 0.0189
+[Worker(host:sharetribe pid:18170)] 1 jobs processed at 33.2538 j/s, 0 failed ...
+[Worker(host:sharetribe pid:18170)] PageLoadedJob completed after 0.0424
+[Worker(host:sharetribe pid:18170)] 1 jobs processed at 15.1292 j/s, 0 failed ...
+DEBUG Cache read: /translation_service/community/1
+DEBUG Cache fetch_hit: /translation_service/community/1
+INFO 
+Sent mail to samahalzaidi@gmail.com (1820.2ms)
+[Worker(host:sharetribe pid:18170)] SendWelcomeEmail completed after 2.0621
+[Worker(host:sharetribe pid:18170)] PageLoadedJob completed after 0.0210
+[Worker(host:sharetribe pid:18170)] 2 jobs processed at 0.9456 j/s, 0 failed ...
+[Worker(host:sharetribe pid:18170)] PageLoadedJob completed after 0.0291
+[Worker(host:sharetribe pid:18170)] 1 jobs processed at 25.4088 j/s, 0 failed ...
+[Worker(host:sharetribe pid:18170)] Thinking Sphinx: Process listing_delta completed after 0.0708
+[Worker(host:sharetribe pid:18170)] Thinking Sphinx: Mark 7 in listing_core as deleted completed after 0.0083
+[Worker(host:sharetribe pid:18170)] 2 jobs processed at 19.8117 j/s, 0 failed ...
+[Worker(host:sharetribe pid:18170)] Thinking Sphinx: Process listing_delta completed after 0.0309
+[Worker(host:sharetribe pid:18170)] Thinking Sphinx: Mark 13 in listing_core as deleted completed after 0.0064
+[Worker(host:sharetribe pid:18170)] 2 jobs processed at 38.4480 j/s, 0 failed ...
+[Worker(host:sharetribe pid:18170)] Thinking Sphinx: Process listing_delta completed after 0.0430
+[Worker(host:sharetribe pid:18170)] Thinking Sphinx: Mark 7 in listing_core as deleted completed after 0.0055
+[Worker(host:sharetribe pid:18170)] PageLoadedJob completed after 0.0123
+[Worker(host:sharetribe pid:18170)] 3 jobs processed at 37.0796 j/s, 0 failed ...
+[Worker(host:sharetribe pid:18170)] PageLoadedJob completed after 0.0193
+[Worker(host:sharetribe pid:18170)] 1 jobs processed at 34.9177 j/s, 0 failed ...
+[Worker(host:sharetribe pid:18170)] PageLoadedJob completed after 0.0143
+[Worker(host:sharetribe pid:18170)] 1 jobs processed at 43.0619 j/s, 0 failed ...
+[Worker(host:sharetribe pid:18170)] PageLoadedJob completed after 0.0122
+[Worker(host:sharetribe pid:18170)] 1 jobs processed at 48.9087 j/s, 0 failed ...
+[Worker(host:sharetribe pid:18170)] PageLoadedJob completed after 0.0261
+[Worker(host:sharetribe pid:18170)] PageLoadedJob completed after 0.0208
+[Worker(host:sharetribe pid:18170)] 2 jobs processed at 29.9015 j/s, 0 failed ...
+[Worker(host:sharetribe pid:18170)] PageLoadedJob completed after 0.0349
+[Worker(host:sharetribe pid:18170)] PageLoadedJob completed after 0.0235
+[Worker(host:sharetribe pid:18170)] 2 jobs processed at 21.6263 j/s, 0 failed ...
+[Worker(host:sharetribe pid:18170)] PageLoadedJob completed after 0.0369
+[Worker(host:sharetribe pid:18170)] 1 jobs processed at 17.0369 j/s, 0 failed ...
+[Worker(host:sharetribe pid:18170)] PageLoadedJob completed after 0.0199
+[Worker(host:sharetribe pid:18170)] 1 jobs processed at 17.2922 j/s, 0 failed ...
+[Worker(host:sharetribe pid:18170)] Thinking Sphinx: Process listing_delta completed after 0.0973
+[Worker(host:sharetribe pid:18170)] Thinking Sphinx: Mark 13 in listing_core as deleted completed after 0.0065
+[Worker(host:sharetribe pid:18170)] 2 jobs processed at 16.8966 j/s, 0 failed ...
+[Worker(host:sharetribe pid:18170)] Thinking Sphinx: Process listing_delta completed after 0.0328
+[Worker(host:sharetribe pid:18170)] Thinking Sphinx: Mark 7 in listing_core as deleted completed after 0.0053
+[Worker(host:sharetribe pid:18170)] 2 jobs processed at 41.5856 j/s, 0 failed ...
+[Worker(host:sharetribe pid:18170)] CompileCustomStylesheetJob completed after 6.4998
+[Worker(host:sharetribe pid:18170)] 1 jobs processed at 0.1537 j/s, 0 failed ...
+[Worker(host:sharetribe pid:18170)] CompileCustomStylesheetJob completed after 6.6158
+[Worker(host:sharetribe pid:18170)] 1 jobs processed at 0.1510 j/s, 0 failed ...
+[Worker(host:sharetribe pid:18170)] Thinking Sphinx: Process listing_delta completed after 0.0607
+[Worker(host:sharetribe pid:18170)] Thinking Sphinx: Mark 7 in listing_core as deleted completed after 0.0079
+[Worker(host:sharetribe pid:18170)] 2 jobs processed at 25.1441 j/s, 0 failed ...
+[Worker(host:sharetribe pid:18170)] Thinking Sphinx: Process listing_delta completed after 0.0454
+[Worker(host:sharetribe pid:18170)] Thinking Sphinx: Mark 13 in listing_core as deleted completed after 0.0060
+[Worker(host:sharetribe pid:18170)] 2 jobs processed at 30.9089 j/s, 0 failed ...
+[Worker(host:sharetribe pid:18170)] CompileCustomStylesheetJob completed after 9.1919
+[Worker(host:sharetribe pid:18170)] 1 jobs processed at 0.1086 j/s, 0 failed ...
+[Worker(host:sharetribe pid:18170)] CompileCustomStylesheetJob completed after 6.0960
+[Worker(host:sharetribe pid:18170)] 1 jobs processed at 0.1638 j/s, 0 failed ...
+[Worker(host:sharetribe pid:18170)] PageLoadedJob completed after 0.0162
+[Worker(host:sharetribe pid:18170)] CompileCustomStylesheetJob completed after 7.1181
+[Worker(host:sharetribe pid:18170)] PageLoadedJob completed after 0.0061
+[Worker(host:sharetribe pid:18170)] 3 jobs processed at 0.4192 j/s, 0 failed ...
+[Worker(host:sharetribe pid:18170)] CompileCustomStylesheetJob completed after 5.9509
+[Worker(host:sharetribe pid:18170)] 1 jobs processed at 0.1679 j/s, 0 failed ...
+[Worker(host:sharetribe pid:18170)] Thinking Sphinx: Process listing_delta completed after 0.0412
+[Worker(host:sharetribe pid:18170)] Thinking Sphinx: Mark 13 in listing_core as deleted completed after 0.0057
+[Worker(host:sharetribe pid:18170)] 2 jobs processed at 33.1881 j/s, 0 failed ...

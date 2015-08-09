@@ -18,7 +18,7 @@
 
     = render :partial => "layouts/info_text", :locals => { :text => t(".listing_fields_help")}
 
-    - show_custom_fields = !@custom_fields.empty?
+    - show_custom_fields = !(@custom_fields.length == 0)
 
   #custom-fields-list
     .row.visible-tablet

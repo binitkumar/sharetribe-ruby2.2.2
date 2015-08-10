@@ -889,4 +889,8 @@ module ApplicationHelper
       content_for :extra_javascript do js end
     end
   end
+
+  def current_direction
+    I18n.locale.to_s == 'ar' ? 'rtl' : ''
+  end
 end

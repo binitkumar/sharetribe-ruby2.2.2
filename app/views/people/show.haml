@@ -6,8 +6,7 @@
     %span.profile-title= @person.name(@current_community) + (@community_customization && @community_customization.storefront_label ? @community_customization.storefront_label : "")
 
 .row
-  .col-8
-
+  .col-8.pull-right
     .row.relative
       .people-image-mobile
         = huge_avatar_thumb(@person)
@@ -63,7 +62,7 @@
             #profile-testimonials-list
               = render :partial => "testimonials", :locals => {:received_testimonials => @person.received_testimonials, :limit => 3}
 
-  .col-4
+  .col-4.pull-right
     .row
       .people-image
         = huge_avatar_thumb(@person)

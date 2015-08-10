@@ -35,7 +35,7 @@ Kassi::Application.configure do
       request_uuid: event.payload[:request_uuid] }
   }
 
-  config.lograge.formatter = Lograge::Formatters::Json.new
+  #config.lograge.formatter = Lograge::Formatters::Json.new
 
   config.after_initialize do
     ActiveRecord::Base.logger = Rails.logger.clone

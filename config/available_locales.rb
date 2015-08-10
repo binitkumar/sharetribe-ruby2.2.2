@@ -28,6 +28,7 @@ module Sharetribe
     {ident: "sv", name: "Svenska", language: "sv", region: "SE", fallback: nil}, # Swedish (Sweden)
     {ident: "tr-TR", name: "Turkish", language: "tr", region: "TR", fallback: nil}, # Turkish (Turkey)
     {ident: "zh", name: "中文", language: "zh", region: "CN", fallback: nil}, # Chinese (China)
+    {ident: "ar", name: "Arebic", language: "ar", region: "AR", fallback: nil}, # Arab (Arab)
   ]
 
   UNSUPPORTED_LOCALES = [

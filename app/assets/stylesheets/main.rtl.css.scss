@@ -233,7 +233,7 @@ ul {
 
   @include media(tablet) {
     display: block;
-    position: absolute;
+    float: left;
     a {
       position: relative;
       padding: $selected-highlight-padding lines(0.5);
@@ -2215,6 +2215,7 @@ figure.fluidratio {
     width: 100%;
     height: 100%;
     padding: 0;
+    text-align: right;
 
     display: table;
 
@@ -2226,14 +2227,14 @@ figure.fluidratio {
 
       display: table-cell;
       vertical-align: middle;
-      text-align: center;
+      text-align: right;
 
       @include media(large-mobile) {
         @include big-type;
       }
 
       @include media(tablet) {
-        text-align: left;
+        text-align: right;
         @include large-type;
       }
     }
@@ -2379,3 +2380,11 @@ figure.fluidratio {
   }
 }
 
+.welcome-email-editor-background {
+  background-color: $highlight;
+  padding: 20px;
+}
+
+.marketplace-title-header h1{
+  text-align: right !important;
+}

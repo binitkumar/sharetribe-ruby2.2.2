@@ -1,0 +1,58 @@
+en:
+  errors:
+    messages:
+      expired: "انتهت، يرجى طلب جديدة"
+      not_found: "لم يتم العثور على"
+      already_confirmed: "مؤكد بالفعل، من فضلك حاول تسجيل الدخول"
+      not_locked: "لم يقفل"
+      not_saved:
+        one: "1 error prohibited this %{resource} from being saved:"
+        other: "%{count} errors prohibited this %{resource} from being saved:"
+  devise:
+    failure:
+      already_authenticated: "لقد تم تسجيلك دخولك من قبل."
+      unauthenticated: "تحتاج الى تسجيل الدخول أو التسجيل بالموقع قبل المتابعة"
+      unconfirmed: "تحتاج الى تفعيل حسابك قبل المتابعة."
+      locked: "حسابك مقفل"
+      invalid: "خطأ في كلة السر او البريد الالكتروني."
+      invalid_token: "رمز مصادقة غير صحيح."
+      timeout: "لضان حماية حسابك تم تسجيل خروجك لعدم استخدام الموقع لفتره، الرجاء تسجيل الدخول مرة أخرى للمتابعة."
+      inactive: "لم يتم تفعيل حسابك بعد."
+    passwords:
+      updated_not_active: "تم تغيير رقم السري بنجاح."
+      send_paranoid_instructions: "في حالة وجود البريد الإلكتروني الخاص بك على قاعدة بياناتنا، سوف تتلقى رابط استعادة كلمة السر على البريد الإلكتروني الخاص بك"
+      send_instructions: "سوف تتلقى رسالة بريد إلكتروني مع تعليمات حول كيفية إعادة ضبط كلمة المرور الخاصة بك في بضع دقائق."
+      updated: "تم تغيير كلمة السر  وتسجيل دخولك بنجاح  "
+    sessions:
+      signed_in: "تم تسجيل دخولك بنجاح."
+      signed_out: "تم تسجيل خروجك بنجاح."
+    confirmations:
+      send_paranoid_instructions: "في حالة وجود البريد الإلكتروني الخاص بك على قاعدة بياناتنا، سوف تتلقى رسالة بريد إلكتروني مع تعليمات حول كيفية تأكيد حسابك في بضع دقائق."
+      send_instructions: "سوف تتلقى رسالة بريد إلكتروني مع تعليمات حول كيفية تأكيد حسابك في بضع دقائق."
+      confirmed: "تم تأكيد حسابك بنجاح."
+    registrations:
+      signed_up_but_unconfirmed: "تم إرسال رسالة تحتوي على رابط التأكيد إلى عنوان البريد الإلكتروني الخاص بك. يرجى فتح الرابط لتفعيل حسابك."
+      signed_up_but_inactive: "تم تسجيل دخولك بنجاح . ولكن، لا يمكنك تسجيل الدخول حتى تقوم بتفعيل حسابك."
+      signed_up_but_locked: "تم تسجيل دخولك بنجاح. ولكن، لم يمكنك تسجيل الدخول لانه تم تجميد حسابك."
+      reasons:
+        inactive: inactive
+        unconfirmed: unconfirmed
+        locked: locked
+      update_needs_confirmation: " لقد قمت بتحديث حسابك بنجاح، لكننا بحاجة للتحقق من عنوان بريدك الإلكتروني الجديد. يرجى التحقق من بريدك الالكتروني والنقر على رابط تأكيد عنوان بريدك الإلكتروني الجديد."
+      signed_up: "مرحبا! لقد تم تسجيلك بنجاح."
+      updated: "تم تحديث حسابك بنجاح."
+      destroyed: " تم إلغاء حسابك بنجاح. نأمل أن نراك قريبا مرة أخرى."
+    unlocks:
+      send_paranoid_instructions: "في حالة وجود حسابك لدينا ، سوف تتلقى رسالة بريد إلكتروني مع تعليمات حول كيفية فتحه في بضع دقائق."
+      send_instructions: "سوف تتلقى رسالة بريد إلكتروني مع تعليمات حول كيفية فتح حساب الخاص بك في بضع دقائق."
+      unlocked: "تم فتح حسابك بنجاح. يرجى تسجيل الدخول للمواصلة."
+    omniauth_callbacks:
+      success: "تم بنجاح التخويل من حساب %{kind} ."
+      failure: "لم يتم التخويل من حساب %{kind} بسبب \"%{reason}\"."
+    mailer:
+      confirmation_instructions:
+        subject: "تعلميات التأكيد"
+      reset_password_instructions:
+        subject: "تعليمات استعادة كلمة المرور"
+      unlock_instructions:
+        subject: "تعلميات الحسابات المجمدة"

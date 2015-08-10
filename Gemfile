@@ -26,7 +26,7 @@ gem 'unicorn', "~>4.6.3"
 gem 'kgio', '2.9.3'
 gem "rack-timeout"
 
-gem "mysql2"
+gem "mysql2", "0.3.14"
 gem 'haml'
 gem 'sass', "  ~> 3.2.9"
 gem 'rest-client', '>= 1.6.0'
@@ -135,3 +135,4 @@ end
 gem 'eventmachine', github: "eventmachine/eventmachine"
 gem 'strong_parameters'
 gem 'test-unit'
+gem 'rtlize'

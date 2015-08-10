@@ -31,7 +31,7 @@
     .fade
 
 .row
-  .col-8
+  .col-8.pull-right
     .row
       .col-12
         - with_image_frame(@listing) do |reason, listing_images|
@@ -115,7 +115,7 @@
           #comment-form
             = render :partial => "comment_form"
 
-  %aside.col-4
+  %aside.col-4.pull-right
     - if @listing.price
       .row
         .col-12

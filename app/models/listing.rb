@@ -360,7 +360,7 @@ class Listing < ActiveRecord::Base
   end
 
   def has_image?
-    !listing_images.empty?
+    !(listing_images.length == 0)
   end
 
   def icon_name

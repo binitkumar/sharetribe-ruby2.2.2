@@ -1,5 +1,5 @@
 - top_level_categories = @current_community.top_level_categories.reject { |c| c.id == @category.id }
-- if @category.children.empty? && top_level_categories.length > 0
+- if (@category.children.length ==0) && (top_level_categories.length > 0)
   .row
     .col-12
       = form.label :parent_id, t(".category_parent")

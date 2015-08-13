@@ -157,6 +157,7 @@ en:
         view_transactions_link_text: here
         contact_support_link_text: "contact our support"
       available_languages:
+        ar: Arebic
         en: English
         en-AU: "English (Australia)"
         en-GB: "English (United Kingdom)"

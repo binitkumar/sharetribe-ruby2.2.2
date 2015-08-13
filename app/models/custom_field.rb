@@ -61,7 +61,8 @@ class CustomField < ActiveRecord::Base
   end
 
   def category_attributes=(attributes)
-    category_custom_fields.clear
+    category_custom_fields.each do |x|; x.destroy; end
+
     attributes.each { |category| category_custom_fields.build(category) }
   end
 

@@ -509,7 +509,7 @@ class Community < ActiveRecord::Base
   end
 
   def leaf_categories
-    categories.reject { |c| !c.children.empty? }
+    categories.reject { |c| !(c.children.length == 0) }
   end
 
   # is it possible to pay for this listing via the payment system

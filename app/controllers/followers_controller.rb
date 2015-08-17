@@ -8,7 +8,8 @@ class FollowersController < ApplicationController
     @person = Person.find(params[:person_id] || params[:id])
     PersonViewUtils.ensure_person_belongs_to_community!(@person, @current_community)
 
-    @person.followers << @current_user
+    #@person.followers.push @current_user
+    FollowerRelationship.create(person_id: @person.id, follower_id: @current_user.id)
     respond_to do |format|
       format.html { redirect_to :back }
       format.js { render :partial => "people/follow_button", :locals => { :person => @person } }

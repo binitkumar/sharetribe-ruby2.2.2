@@ -121,7 +121,9 @@ module ListingService::Store::Shape
 
     ActiveRecord::Base.transaction do
       unless skip_units
-        shape_model.listing_units.destroy_all
+        shape_model.listing_units.each do |list|
+          list.destroy
+        end
         units.each { |unit| shape_model.listing_units.build(to_unit_model_attributes(unit)) }
       end
 

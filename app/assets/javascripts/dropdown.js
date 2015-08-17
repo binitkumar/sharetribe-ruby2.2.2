@@ -18,7 +18,11 @@ $(function() {
       var top = anchorOffset.top + anchorElement.outerHeight();
       var left = anchorOffset.left;
       if( $(document).attr("dir") == "rtl" ){
-        left = left - 150
+        if(left > 150){
+          left = left - 150
+        }else{
+          left += 50
+        }
       }
 
       if(anchorPosition === "right") {

@@ -17,6 +17,9 @@ $(function() {
       var anchorOffset = anchorElement.offset();
       var top = anchorOffset.top + anchorElement.outerHeight();
       var left = anchorOffset.left;
+      if( $(document).attr("dir") == "rtl" ){
+        left = left - 150
+      }
 
       if(anchorPosition === "right") {
         var right = left - ($menu.outerWidth() - anchorElement.outerWidth());
